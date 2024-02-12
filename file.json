@@ -1,0 +1,197 @@
+{
+  "BaseModel.403b628c-cf53-41d8-9904-697dfa9ab086": {
+    "id": "403b628c-cf53-41d8-9904-697dfa9ab086",
+    "created_at": "2024-02-12T03:09:14.115858",
+    "updated_at": "2024-02-12T03:09:14.115858",
+    "__class__": "BaseModel"
+  },
+  "Place.0704de3c-1bde-45b2-b0a8-5eeffb0644b3": {
+    "id": "0704de3c-1bde-45b2-b0a8-5eeffb0644b3",
+    "created_at": "2024-02-12T03:09:14.115971",
+    "updated_at": "2024-02-12T03:09:14.115971",
+    "city_id": "12345",
+    "user_id": "abcde",
+    "name": "Test Place",
+    "description": "Test description",
+    "number_rooms": 1,
+    "number_bathrooms": 2,
+    "max_guest": 3,
+    "price_by_night": 100,
+    "latitude": 12.34,
+    "longitude": -56.78,
+    "amenity_ids": [
+      "pool",
+      "wifi"
+    ],
+    "__class__": "Place"
+  },
+  "Place.2a1dbfbc-8326-4494-9d61-9635623085dd": {
+    "id": "2a1dbfbc-8326-4494-9d61-9635623085dd",
+    "created_at": "2024-02-12T03:09:14.116029",
+    "updated_at": "2024-02-12T03:09:14.116029",
+    "__class__": "Place"
+  },
+  "Place.b3f3692e-fc4a-45f8-a7c9-636d598516a9": {
+    "id": "b3f3692e-fc4a-45f8-a7c9-636d598516a9",
+    "created_at": "2024-02-12T03:09:14.116095",
+    "updated_at": "2024-02-12T03:09:14.116095",
+    "city_id": "12345",
+    "user_id": "abcde",
+    "name": "Test Place",
+    "description": "Some new description",
+    "number_rooms": 5,
+    "number_bathrooms": 3,
+    "max_guest": 7,
+    "price_by_night": 300,
+    "latitude": 33.33,
+    "longitude": -44.44,
+    "amenity_ids": [
+      "sauna"
+    ],
+    "__class__": "Place"
+  },
+  "Review.0a77b10f-bcba-4bd3-a10a-74478c711fa0": {
+    "id": "0a77b10f-bcba-4bd3-a10a-74478c711fa0",
+    "created_at": "2024-02-12T03:09:14.116174",
+    "updated_at": "2024-02-12T03:09:14.116174",
+    "__class__": "Review"
+  },
+  "Review.285ade10-c0ff-4ac4-a341-29f173ee1da6": {
+    "id": "285ade10-c0ff-4ac4-a341-29f173ee1da6",
+    "created_at": "2024-02-12T03:09:14.116233",
+    "updated_at": "2024-02-12T03:09:14.116233",
+    "__class__": "Review"
+  },
+  "Review.24d5b271-0ef7-42e6-8840-f53fcc5e2107": {
+    "id": "24d5b271-0ef7-42e6-8840-f53fcc5e2107",
+    "created_at": "2024-02-12T03:09:14.116291",
+    "updated_at": "2024-02-12T03:09:14.116291",
+    "__class__": "Review"
+  },
+  "Review.80cafcf8-e0bc-4b68-b9e1-59674bf612c1": {
+    "id": "80cafcf8-e0bc-4b68-b9e1-59674bf612c1",
+    "created_at": "2024-02-12T03:09:14.116298",
+    "updated_at": "2024-02-12T03:09:14.116298",
+    "__class__": "Review"
+  },
+  "Review.13a3a724-9308-4c76-9988-db38a6f0da1a": {
+    "id": "13a3a724-9308-4c76-9988-db38a6f0da1a",
+    "created_at": "2024-02-12T03:09:14.116348",
+    "updated_at": "2024-02-12T03:09:14.116348",
+    "__class__": "Review"
+  },
+  "Review.61c9eca1-9fab-4328-a60c-ba2ad00b9295": {
+    "id": "61c9eca1-9fab-4328-a60c-ba2ad00b9295",
+    "created_at": "2024-02-12T03:09:14.116459",
+    "updated_at": "2024-02-12T03:09:14.116459",
+    "__class__": "Review"
+  },
+  "Review.485c3550-c5b6-43aa-9b08-c833beea74b4": {
+    "id": "485c3550-c5b6-43aa-9b08-c833beea74b4",
+    "created_at": "2024-02-12T03:09:14.116512",
+    "updated_at": "2024-02-12T03:09:14.116516",
+    "__class__": "Review"
+  },
+  "Review.441d9b78-590d-4e4c-8c2e-e6d993a8af82": {
+    "id": "441d9b78-590d-4e4c-8c2e-e6d993a8af82",
+    "created_at": "2024-02-12T03:09:14.117077",
+    "updated_at": "2024-02-12T03:09:14.117077",
+    "__class__": "Review"
+  },
+  "Review.6d6bf30b-a97b-424a-96f5-aadd145708ce": {
+    "id": "6d6bf30b-a97b-424a-96f5-aadd145708ce",
+    "created_at": "2024-02-12T03:09:14.117319",
+    "updated_at": "2024-02-12T03:09:14.117319",
+    "__class__": "Review"
+  },
+  "Review.55592536-607f-4009-80ff-76f84740aa2d": {
+    "id": "55592536-607f-4009-80ff-76f84740aa2d",
+    "created_at": "2024-02-12T03:09:14.117388",
+    "updated_at": "2024-02-12T03:09:14.117388",
+    "new_attribute": "value",
+    "__class__": "Review"
+  },
+  "Review.aed8eab5-3385-42c7-91ea-99a164d50cd9": {
+    "id": "aed8eab5-3385-42c7-91ea-99a164d50cd9",
+    "created_at": "2024-02-12T03:09:14.117449",
+    "updated_at": "2024-02-12T03:09:14.117449",
+    "__class__": "Review"
+  },
+  "Review.d1ecc966-2481-4d28-a7f0-4f653dadd773": {
+    "id": "d1ecc966-2481-4d28-a7f0-4f653dadd773",
+    "created_at": "2024-02-12T03:09:14.117507",
+    "updated_at": "2024-02-12T03:09:14.117507",
+    "__class__": "Review"
+  },
+  "State.8dd72027-e4c7-4094-9c1c-fc3e96bdcf93": {
+    "id": "8dd72027-e4c7-4094-9c1c-fc3e96bdcf93",
+    "created_at": "2024-02-12T03:09:14.117579",
+    "updated_at": "2024-02-12T03:09:14.117579",
+    "__class__": "State"
+  },
+  "State.c8477b05-b94a-482d-b64a-e3ecf1fb9b42": {
+    "id": "c8477b05-b94a-482d-b64a-e3ecf1fb9b42",
+    "created_at": "2024-02-12T03:09:14.117635",
+    "updated_at": "2024-02-12T03:09:14.117635",
+    "__class__": "State"
+  },
+  "State.b7771801-aeed-4612-ad6b-e6e805b19dec": {
+    "id": "b7771801-aeed-4612-ad6b-e6e805b19dec",
+    "created_at": "2024-02-12T03:09:14.117834",
+    "updated_at": "2024-02-12T03:09:14.117834",
+    "__class__": "State"
+  },
+  "State.fee24b52-47d5-4b20-8bfe-a4f4e425a472": {
+    "id": "fee24b52-47d5-4b20-8bfe-a4f4e425a472",
+    "created_at": "2024-02-12T03:09:14.118081",
+    "updated_at": "2024-02-12T03:09:14.118081",
+    "__class__": "State"
+  },
+  "State.51051a93-30d3-4b1e-b239-c9ffd6f93cdc": {
+    "id": "51051a93-30d3-4b1e-b239-c9ffd6f93cdc",
+    "created_at": "2024-02-12T03:09:14.118321",
+    "updated_at": "2024-02-12T03:09:14.118321",
+    "__class__": "State"
+  },
+  "State.394847cd-dafc-48e6-b6bc-587474777fbf": {
+    "id": "394847cd-dafc-48e6-b6bc-587474777fbf",
+    "created_at": "2024-02-12T03:09:14.118664",
+    "updated_at": "2024-02-12T03:09:14.118664",
+    "__class__": "State"
+  },
+  "User.1eb1d8aa-4dfe-4189-a6d8-4bb012963121": {
+    "id": "1eb1d8aa-4dfe-4189-a6d8-4bb012963121",
+    "created_at": "2024-02-12T03:09:14.118934",
+    "updated_at": "2024-02-12T03:09:14.118934",
+    "first_name": "wad saif",
+    "__class__": "User"
+  },
+  "User.5584c353-8a14-4776-9b2b-0b11863867eb": {
+    "id": "5584c353-8a14-4776-9b2b-0b11863867eb",
+    "created_at": "2024-02-12T03:09:14.119030",
+    "updated_at": "2024-02-12T03:09:14.119030",
+    "first_name": "wad saif",
+    "__class__": "User"
+  },
+  "User.64bda2f9-141b-42bf-a4a8-563f6d938316": {
+    "id": "64bda2f9-141b-42bf-a4a8-563f6d938316",
+    "created_at": "2024-02-12T03:09:14.119126",
+    "updated_at": "2024-02-12T03:09:14.119126",
+    "first_name": "wad saif",
+    "__class__": "User"
+  },
+  "User.bf3bcf79-ecc9-4f19-b418-f23ea700640a": {
+    "id": "bf3bcf79-ecc9-4f19-b418-f23ea700640a",
+    "created_at": "2024-02-12T03:09:14.119182",
+    "updated_at": "2024-02-12T03:09:14.119182",
+    "first_name": "wad saif",
+    "__class__": "User"
+  },
+  "User.94402917-0837-427a-ace1-183394e05d8e": {
+    "id": "94402917-0837-427a-ace1-183394e05d8e",
+    "created_at": "2024-02-12T03:09:14.119268",
+    "updated_at": "2024-02-12T03:09:14.119275",
+    "first_name": "wad saif",
+    "__class__": "User"
+  }
+}
