@@ -45,6 +45,20 @@ quit or EOF: Exit the console
 >quit
 >EOF
 
+## Example of Usage:
+~~~
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+~~~
 
 ## Files:
 
