@@ -1,0 +1,139 @@
+#mygithub
+gituser=
+gitmail=
+token=
+
+#Functions
+# function to insert name and email of GitHub
+gtc() {
+    git config --global user.name "$gituser"
+    git config --global user.email "$gitmail"
+    echo "Git global configuration set to Name: $gituser, Email: $gitmail"
+}
+
+
+
+#clone any repo
+
+gcl() {
+    git clone https://$token@github.com/$gituser/$1.git
+    cd $1
+}
+
+
+#echo
+e() {
+     echo "$1" > "$2"
+}
+
+#append
+ea() {
+    echo "$1" >> "$2"
+}
+
+#git add commit push
+g() {
+    git pull
+    git add .
+    git commit -m "$1"
+    git push
+}
+
+
+#make di and cd dir
+m() {
+   mkdir -v -p $1
+   cd $1
+}
+
+
+#touch files
+code='code'
+to='touch'
+t() {
+    if [ "$#" -eq 0 ]; then
+        $code .
+    else
+        for file in "$@"; do
+            $to "$file"
+            $code "$file"
+        done
+    fi
+}
+
+#another functions
+run_betty() {
+    if [ "$#" -eq 0 ]; then
+        # If no arguments provided, check for *.c files
+        if [ -n "$(ls *.c 2>/dev/null)" ]; then
+            betty *.c
+        fi
+    else
+        # If arguments provided, run betty on specified files
+        betty "$@"
+    fi
+}
+
+run_pycodestyle() {
+    if [ "$#" -eq 0 ]; then
+        # If no arguments provided, check for *.py files
+        if [ -n "$(ls *.py 2>/dev/null)" ]; then
+            pycodestyle *.py
+        fi
+    else
+        # If arguments provided, run pycodestyle on specified files
+        pycodestyle "$@"
+    fi
+}
+#Aliases:
+
+#Basic aliases
+clone_repo() {
+    git clone $1
+    cd $1
+}
+alias cl="clone_repo"
+alias q="python3"
+alias ob='code ~/.bashrc'
+alias o='code'
+alias sb='source ~/.bashrc'
+alias h='history'
+alias i='sudo apt-get install'
+alias d='trash'
+alias dd='sudo rm -rf /home/siroo/.local/share/Trash/files/*'
+alias cx='chmod +x'
+alias xx='chmod -x'
+
+
+#go back to previous directories
+alias b='cd ..'
+alias bb='cd ../..'
+alias b3='cd ../../../'
+alias b4='cd ../../../../'
+alias b5='cd ../../../../../'
+
+alias tc='q -m unittest -v'
+
+
+#Git aliases
+alias ada='git add *'
+alias ad='git add'
+alias gb='git branch'
+alias st='git status'
+alias gco='git checkout'
+alias gp='git push'
+alias pl='git pull'
+
+
+#Auto completetion for bash shell for default user:
+
+# Check if ble.sh is installed
+if [ ! -d "$HOME/ble.sh" ]; then
+    # Clone the repository and build ble.sh
+    git clone --recursive https://github.com/akinomyoga/ble.sh.git $HOME/ble.sh
+    make -C $HOME/ble.sh
+fi
+
+# Source ble.sh
+source $HOME/ble.sh/out/ble.sh
+
