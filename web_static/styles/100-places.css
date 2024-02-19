@@ -24,7 +24,7 @@ article {
     border-radius: 4px;
     border: 1px solid #FF5A5F;
     display: inline-block;
-    min-height: 500px;
+    min-height: 260px;
     vertical-align: top;
 }
 article h2 {
@@ -71,9 +71,9 @@ div.user {
 }
 div.user,
 div.description {
-    text-align: left;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 div.amenities h2 {
     font-size: 16px;

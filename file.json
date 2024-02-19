@@ -193,5 +193,11 @@
     "updated_at": "2024-02-12T03:09:14.119275",
     "first_name": "wad saif",
     "__class__": "User"
+  },
+  "User.77abc92c-74ad-4200-86eb-3d1c24e6aeec": {
+    "id": "77abc92c-74ad-4200-86eb-3d1c24e6aeec",
+    "created_at": "2024-02-19T02:00:55.740010",
+    "updated_at": "2024-02-19T02:00:55.740047",
+    "__class__": "User"
   }
 }
